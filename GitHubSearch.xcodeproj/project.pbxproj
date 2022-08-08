@@ -14,6 +14,18 @@
 		D0F444DB289B1E0E00DAB838 /* GitHubSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F444DA289B1E0E00DAB838 /* GitHubSearchTests.swift */; };
 		D0F444E5289B1E0E00DAB838 /* GitHubSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F444E4289B1E0E00DAB838 /* GitHubSearchUITests.swift */; };
 		D0F444E7289B1E0E00DAB838 /* GitHubSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F444E6289B1E0E00DAB838 /* GitHubSearchUITestsLaunchTests.swift */; };
+		D0F444F5289B1FEA00DAB838 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F444F4289B1FEA00DAB838 /* Repo.swift */; };
+		D0F444F7289B208B00DAB838 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F444F6289B208B00DAB838 /* Owner.swift */; };
+		D0F444FC289B270D00DAB838 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D0F444FB289B270D00DAB838 /* Alamofire */; };
+		D0F444FF289B27A900DAB838 /* RepoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F444FE289B27A900DAB838 /* RepoAPI.swift */; };
+		D0F44501289B2EBA00DAB838 /* SearchRepoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F44500289B2EBA00DAB838 /* SearchRepoView.swift */; };
+		D0F44503289B2EEC00DAB838 /* SearchRepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F44502289B2EEC00DAB838 /* SearchRepoViewModel.swift */; };
+		D0F44505289B3F8200DAB838 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F44504289B3F8200DAB838 /* Repos.swift */; };
+		D0F4450928A1166B00DAB838 /* SearchRepoViewDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4450828A1166B00DAB838 /* SearchRepoViewDI.swift */; };
+		D0F4450B28A1384900DAB838 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4450A28A1384900DAB838 /* ErrorView.swift */; };
+		D0F4450D28A14A0000DAB838 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4450C28A14A0000DAB838 /* WebView.swift */; };
+		D0F4450F28A14D4600DAB838 /* RepoListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4450E28A14D4600DAB838 /* RepoListRow.swift */; };
+		D0F4451128A14E2700DAB838 /* IdleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4451028A14E2700DAB838 /* IdleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,17 @@
 		D0F444E0289B1E0E00DAB838 /* GitHubSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F444E4289B1E0E00DAB838 /* GitHubSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchUITests.swift; sourceTree = "<group>"; };
 		D0F444E6289B1E0E00DAB838 /* GitHubSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0F444F4289B1FEA00DAB838 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		D0F444F6289B208B00DAB838 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		D0F444FE289B27A900DAB838 /* RepoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoAPI.swift; sourceTree = "<group>"; };
+		D0F44500289B2EBA00DAB838 /* SearchRepoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepoView.swift; sourceTree = "<group>"; };
+		D0F44502289B2EEC00DAB838 /* SearchRepoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepoViewModel.swift; sourceTree = "<group>"; };
+		D0F44504289B3F8200DAB838 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
+		D0F4450828A1166B00DAB838 /* SearchRepoViewDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepoViewDI.swift; sourceTree = "<group>"; };
+		D0F4450A28A1384900DAB838 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		D0F4450C28A14A0000DAB838 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		D0F4450E28A14D4600DAB838 /* RepoListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListRow.swift; sourceTree = "<group>"; };
+		D0F4451028A14E2700DAB838 /* IdleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F444FC289B270D00DAB838 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +120,12 @@
 			children = (
 				D0F444C9289B1E0D00DAB838 /* GitHubSearchApp.swift */,
 				D0F444CB289B1E0D00DAB838 /* ContentView.swift */,
+				D0F444F3289B1EA000DAB838 /* Models */,
+				D0F444F8289B219800DAB838 /* Views */,
+				D0F4450728A1161E00DAB838 /* Subviews */,
+				D0F444F9289B21CF00DAB838 /* ViewModels */,
+				D0F4450628A1158000DAB838 /* DependencyInjectors */,
+				D0F444FD289B272600DAB838 /* Networking */,
 				D0F444CD289B1E0E00DAB838 /* Assets.xcassets */,
 				D0F444CF289B1E0E00DAB838 /* Preview Content */,
 			);
@@ -127,6 +157,59 @@
 			path = GitHubSearchUITests;
 			sourceTree = "<group>";
 		};
+		D0F444F3289B1EA000DAB838 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0F444F4289B1FEA00DAB838 /* Repo.swift */,
+				D0F44504289B3F8200DAB838 /* Repos.swift */,
+				D0F444F6289B208B00DAB838 /* Owner.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0F444F8289B219800DAB838 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44500289B2EBA00DAB838 /* SearchRepoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0F444F9289B21CF00DAB838 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44502289B2EEC00DAB838 /* SearchRepoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0F444FD289B272600DAB838 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D0F444FE289B27A900DAB838 /* RepoAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D0F4450628A1158000DAB838 /* DependencyInjectors */ = {
+			isa = PBXGroup;
+			children = (
+				D0F4450828A1166B00DAB838 /* SearchRepoViewDI.swift */,
+			);
+			path = DependencyInjectors;
+			sourceTree = "<group>";
+		};
+		D0F4450728A1161E00DAB838 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				D0F4450A28A1384900DAB838 /* ErrorView.swift */,
+				D0F4450C28A14A0000DAB838 /* WebView.swift */,
+				D0F4450E28A14D4600DAB838 /* RepoListRow.swift */,
+				D0F4451028A14E2700DAB838 /* IdleView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +226,9 @@
 			dependencies = (
 			);
 			name = GitHubSearch;
+			packageProductDependencies = (
+				D0F444FB289B270D00DAB838 /* Alamofire */,
+			);
 			productName = GitHubSearch;
 			productReference = D0F444C6289B1E0D00DAB838 /* GitHubSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +301,9 @@
 				Base,
 			);
 			mainGroup = D0F444BD289B1E0D00DAB838;
+			packageReferences = (
+				D0F444FA289B270D00DAB838 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = D0F444C7289B1E0D00DAB838 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +346,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F44501289B2EBA00DAB838 /* SearchRepoView.swift in Sources */,
+				D0F444FF289B27A900DAB838 /* RepoAPI.swift in Sources */,
+				D0F4450F28A14D4600DAB838 /* RepoListRow.swift in Sources */,
+				D0F444F5289B1FEA00DAB838 /* Repo.swift in Sources */,
+				D0F44503289B2EEC00DAB838 /* SearchRepoViewModel.swift in Sources */,
+				D0F444F7289B208B00DAB838 /* Owner.swift in Sources */,
+				D0F4450B28A1384900DAB838 /* ErrorView.swift in Sources */,
 				D0F444CC289B1E0D00DAB838 /* ContentView.swift in Sources */,
 				D0F444CA289B1E0D00DAB838 /* GitHubSearchApp.swift in Sources */,
+				D0F4451128A14E2700DAB838 /* IdleView.swift in Sources */,
+				D0F4450928A1166B00DAB838 /* SearchRepoViewDI.swift in Sources */,
+				D0F44505289B3F8200DAB838 /* Repos.swift in Sources */,
+				D0F4450D28A14A0000DAB838 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +683,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0F444FA289B270D00DAB838 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0F444FB289B270D00DAB838 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0F444FA289B270D00DAB838 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0F444BE289B1E0D00DAB838 /* Project object */;
 }
