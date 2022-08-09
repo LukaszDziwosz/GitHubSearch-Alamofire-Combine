@@ -26,6 +26,11 @@
 		D0F4450D28A14A0000DAB838 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4450C28A14A0000DAB838 /* WebView.swift */; };
 		D0F4450F28A14D4600DAB838 /* RepoListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4450E28A14D4600DAB838 /* RepoListRow.swift */; };
 		D0F4451128A14E2700DAB838 /* IdleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4451028A14E2700DAB838 /* IdleView.swift */; };
+		D0F4451328A19C5800DAB838 /* MockRepoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4451228A19C5800DAB838 /* MockRepoAPI.swift */; };
+		D0F4451528A1A22000DAB838 /* XCTestCase+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4451428A1A22000DAB838 /* XCTestCase+JSON.swift */; };
+		D0F4451728A1A3B200DAB838 /* SearchResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = D0F4451628A1A3B200DAB838 /* SearchResponse.json */; };
+		D0F4451928A1A85700DAB838 /* ReposTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4451828A1A85700DAB838 /* ReposTest.swift */; };
+		D0F4451B28A1AC3500DAB838 /* SearchRepoViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4451A28A1AC3500DAB838 /* SearchRepoViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,11 @@
 		D0F4450C28A14A0000DAB838 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		D0F4450E28A14D4600DAB838 /* RepoListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListRow.swift; sourceTree = "<group>"; };
 		D0F4451028A14E2700DAB838 /* IdleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleView.swift; sourceTree = "<group>"; };
+		D0F4451228A19C5800DAB838 /* MockRepoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepoAPI.swift; sourceTree = "<group>"; };
+		D0F4451428A1A22000DAB838 /* XCTestCase+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+JSON.swift"; sourceTree = "<group>"; };
+		D0F4451628A1A3B200DAB838 /* SearchResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SearchResponse.json; sourceTree = "<group>"; };
+		D0F4451828A1A85700DAB838 /* ReposTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposTest.swift; sourceTree = "<group>"; };
+		D0F4451A28A1AC3500DAB838 /* SearchRepoViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepoViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +154,11 @@
 			isa = PBXGroup;
 			children = (
 				D0F444DA289B1E0E00DAB838 /* GitHubSearchTests.swift */,
+				D0F4451228A19C5800DAB838 /* MockRepoAPI.swift */,
+				D0F4451428A1A22000DAB838 /* XCTestCase+JSON.swift */,
+				D0F4451628A1A3B200DAB838 /* SearchResponse.json */,
+				D0F4451828A1A85700DAB838 /* ReposTest.swift */,
+				D0F4451A28A1AC3500DAB838 /* SearchRepoViewModelTest.swift */,
 			);
 			path = GitHubSearchTests;
 			sourceTree = "<group>";
@@ -329,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F4451728A1A3B200DAB838 /* SearchResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +382,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F4451528A1A22000DAB838 /* XCTestCase+JSON.swift in Sources */,
+				D0F4451328A19C5800DAB838 /* MockRepoAPI.swift in Sources */,
 				D0F444DB289B1E0E00DAB838 /* GitHubSearchTests.swift in Sources */,
+				D0F4451B28A1AC3500DAB838 /* SearchRepoViewModelTest.swift in Sources */,
+				D0F4451928A1A85700DAB838 /* ReposTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
